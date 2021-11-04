@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/HP/CLionProjects/laba6/FractionClass.cpp
+FractionClass.h
+C:/Users/HP/CLionProjects/laba6/FractionClass.h
+
+C:/Users/HP/CLionProjects/laba6/FractionClass.h
+cmath
+-
+iostream
+-
+cassert
+-
+
+C:/Users/HP/CLionProjects/laba6/main.cpp
+iostream
+-
+cassert
+-
+FractionClass.h
+C:/Users/HP/CLionProjects/laba6/FractionClass.h
+
