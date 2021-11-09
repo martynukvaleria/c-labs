@@ -4,6 +4,29 @@
 CMakeFiles\laba6.dir\FractionClass.cpp.obj: ..\FractionClass.cpp
 CMakeFiles\laba6.dir\FractionClass.cpp.obj: ..\FractionClass.h
 
+CMakeFiles\laba6.dir\gtests.cpp.obj: ..\FractionClass.h
+CMakeFiles\laba6.dir\gtests.cpp.obj: ..\gtests.cpp
+CMakeFiles\laba6.dir\gtests.cpp.obj: _deps\googletest-src\googletest\include\gtest\gtest-death-test.h
+CMakeFiles\laba6.dir\gtests.cpp.obj: _deps\googletest-src\googletest\include\gtest\gtest-matchers.h
+CMakeFiles\laba6.dir\gtests.cpp.obj: _deps\googletest-src\googletest\include\gtest\gtest-message.h
+CMakeFiles\laba6.dir\gtests.cpp.obj: _deps\googletest-src\googletest\include\gtest\gtest-param-test.h
+CMakeFiles\laba6.dir\gtests.cpp.obj: _deps\googletest-src\googletest\include\gtest\gtest-printers.h
+CMakeFiles\laba6.dir\gtests.cpp.obj: _deps\googletest-src\googletest\include\gtest\gtest-test-part.h
+CMakeFiles\laba6.dir\gtests.cpp.obj: _deps\googletest-src\googletest\include\gtest\gtest-typed-test.h
+CMakeFiles\laba6.dir\gtests.cpp.obj: _deps\googletest-src\googletest\include\gtest\gtest.h
+CMakeFiles\laba6.dir\gtests.cpp.obj: _deps\googletest-src\googletest\include\gtest\gtest_pred_impl.h
+CMakeFiles\laba6.dir\gtests.cpp.obj: _deps\googletest-src\googletest\include\gtest\gtest_prod.h
+CMakeFiles\laba6.dir\gtests.cpp.obj: _deps\googletest-src\googletest\include\gtest\internal\custom\gtest-port.h
+CMakeFiles\laba6.dir\gtests.cpp.obj: _deps\googletest-src\googletest\include\gtest\internal\custom\gtest-printers.h
+CMakeFiles\laba6.dir\gtests.cpp.obj: _deps\googletest-src\googletest\include\gtest\internal\gtest-death-test-internal.h
+CMakeFiles\laba6.dir\gtests.cpp.obj: _deps\googletest-src\googletest\include\gtest\internal\gtest-filepath.h
+CMakeFiles\laba6.dir\gtests.cpp.obj: _deps\googletest-src\googletest\include\gtest\internal\gtest-internal.h
+CMakeFiles\laba6.dir\gtests.cpp.obj: _deps\googletest-src\googletest\include\gtest\internal\gtest-param-util.h
+CMakeFiles\laba6.dir\gtests.cpp.obj: _deps\googletest-src\googletest\include\gtest\internal\gtest-port-arch.h
+CMakeFiles\laba6.dir\gtests.cpp.obj: _deps\googletest-src\googletest\include\gtest\internal\gtest-port.h
+CMakeFiles\laba6.dir\gtests.cpp.obj: _deps\googletest-src\googletest\include\gtest\internal\gtest-string.h
+CMakeFiles\laba6.dir\gtests.cpp.obj: _deps\googletest-src\googletest\include\gtest\internal\gtest-type-util.h
+
 CMakeFiles\laba6.dir\main.cpp.obj: ..\FractionClass.h
 CMakeFiles\laba6.dir\main.cpp.obj: ..\main.cpp
 

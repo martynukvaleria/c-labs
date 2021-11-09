@@ -2,8 +2,8 @@
 
 Fraction::Fraction(int Numerator, int Denominator) {
     assert(denominator != 0);
-    numerator = Numerator;
-    denominator = Denominator;
+    numerator = Denominator < 0 ? -Numerator : Numerator;
+    denominator = abs(Denominator);
     Reduction(numerator, denominator);
 }
 
@@ -27,6 +27,9 @@ void Fraction::Multiplication(Fraction &fraction2) {
 void Fraction::Division(Fraction &fraction2) {
     numerator = numerator * fraction2.denominator;
     denominator = denominator * fraction2.numerator;
+    numerator = denominator < 0 ? -numerator : numerator;
+    denominator = abs(denominator);
+    Reduction(numerator, denominator);
 }
 
 void Fraction::PrintFraction() const {
@@ -34,22 +37,13 @@ void Fraction::PrintFraction() const {
         std::cout << 0 << '\n';
         return;
     }
-    if (abs(numerator) > abs(denominator) && abs(denominator) != 1 && denominator > 0) {
-        int a = abs(numerator) / abs(denominator);
-        std::cout << a << " " << abs(numerator) - abs(denominator) * a << '/' << abs(denominator) << '\n';
-        return;
-    }
-    if (abs(denominator) == 1) {
+    if ((denominator == 1) || (numerator == denominator)) {
         std::cout << numerator / denominator << '\n';
         return;
     }
-    if (abs(numerator) == abs(denominator)) {
-        std::cout << numerator / denominator << '\n';
-        return;
-    }
-    if (abs(numerator) > abs(denominator) && abs(denominator) != 1 && denominator < 0) {
-        int a = abs(numerator) / abs(denominator);
-        std::cout << -a << " " << abs(numerator) - abs(denominator) * a << '/' << abs(denominator) << '\n';
+    if (abs(numerator) > denominator) {
+        int a = abs(numerator) / denominator;
+        std::cout << a << " " << abs(numerator) - denominator * a << '/' << denominator << '\n';
         return;
     }
     std::cout << numerator << "/" << denominator << '\n';

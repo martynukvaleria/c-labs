@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\HP\CLionProjects\laba6
+CMAKE_SOURCE_DIR = C:\Users\HP\Desktop\clabs\laba6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\HP\CLionProjects\laba6\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\HP\Desktop\clabs\laba6\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\laba6.dir\depend.make
@@ -57,57 +57,80 @@ include CMakeFiles\laba6.dir\flags.make
 
 CMakeFiles\laba6.dir\main.cpp.obj: CMakeFiles\laba6.dir\flags.make
 CMakeFiles\laba6.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\HP\CLionProjects\laba6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/laba6.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\HP\Desktop\clabs\laba6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/laba6.dir/main.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\laba6.dir\main.cpp.obj /FdCMakeFiles\laba6.dir\ /FS -c C:\Users\HP\CLionProjects\laba6\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\laba6.dir\main.cpp.obj /FdCMakeFiles\laba6.dir\ /FS -c C:\Users\HP\Desktop\clabs\laba6\main.cpp
 <<
 
 CMakeFiles\laba6.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/laba6.dir/main.cpp.i"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\laba6.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HP\CLionProjects\laba6\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HP\Desktop\clabs\laba6\main.cpp
 <<
 
 CMakeFiles\laba6.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/laba6.dir/main.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\laba6.dir\main.cpp.s /c C:\Users\HP\CLionProjects\laba6\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\laba6.dir\main.cpp.s /c C:\Users\HP\Desktop\clabs\laba6\main.cpp
 <<
 
 CMakeFiles\laba6.dir\FractionClass.cpp.obj: CMakeFiles\laba6.dir\flags.make
 CMakeFiles\laba6.dir\FractionClass.cpp.obj: ..\FractionClass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\HP\CLionProjects\laba6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/laba6.dir/FractionClass.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\HP\Desktop\clabs\laba6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/laba6.dir/FractionClass.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\laba6.dir\FractionClass.cpp.obj /FdCMakeFiles\laba6.dir\ /FS -c C:\Users\HP\CLionProjects\laba6\FractionClass.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\laba6.dir\FractionClass.cpp.obj /FdCMakeFiles\laba6.dir\ /FS -c C:\Users\HP\Desktop\clabs\laba6\FractionClass.cpp
 <<
 
 CMakeFiles\laba6.dir\FractionClass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/laba6.dir/FractionClass.cpp.i"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\laba6.dir\FractionClass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HP\CLionProjects\laba6\FractionClass.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HP\Desktop\clabs\laba6\FractionClass.cpp
 <<
 
 CMakeFiles\laba6.dir\FractionClass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/laba6.dir/FractionClass.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\laba6.dir\FractionClass.cpp.s /c C:\Users\HP\CLionProjects\laba6\FractionClass.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\laba6.dir\FractionClass.cpp.s /c C:\Users\HP\Desktop\clabs\laba6\FractionClass.cpp
+<<
+
+CMakeFiles\laba6.dir\gtests.cpp.obj: CMakeFiles\laba6.dir\flags.make
+CMakeFiles\laba6.dir\gtests.cpp.obj: ..\gtests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\HP\Desktop\clabs\laba6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/laba6.dir/gtests.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\laba6.dir\gtests.cpp.obj /FdCMakeFiles\laba6.dir\ /FS -c C:\Users\HP\Desktop\clabs\laba6\gtests.cpp
+<<
+
+CMakeFiles\laba6.dir\gtests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/laba6.dir/gtests.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\laba6.dir\gtests.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HP\Desktop\clabs\laba6\gtests.cpp
+<<
+
+CMakeFiles\laba6.dir\gtests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/laba6.dir/gtests.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\laba6.dir\gtests.cpp.s /c C:\Users\HP\Desktop\clabs\laba6\gtests.cpp
 <<
 
 # Object files for target laba6
 laba6_OBJECTS = \
 "CMakeFiles\laba6.dir\main.cpp.obj" \
-"CMakeFiles\laba6.dir\FractionClass.cpp.obj"
+"CMakeFiles\laba6.dir\FractionClass.cpp.obj" \
+"CMakeFiles\laba6.dir\gtests.cpp.obj"
 
 # External object files for target laba6
 laba6_EXTERNAL_OBJECTS =
 
 laba6.exe: CMakeFiles\laba6.dir\main.cpp.obj
 laba6.exe: CMakeFiles\laba6.dir\FractionClass.cpp.obj
+laba6.exe: CMakeFiles\laba6.dir\gtests.cpp.obj
 laba6.exe: CMakeFiles\laba6.dir\build.make
+laba6.exe: lib\gtest_maind.lib
+laba6.exe: lib\gtestd.lib
 laba6.exe: CMakeFiles\laba6.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\HP\CLionProjects\laba6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable laba6.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\HP\Desktop\clabs\laba6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable laba6.exe"
 	"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\laba6.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\laba6.dir\objects1.rsp @<<
- /out:laba6.exe /implib:laba6.lib /pdb:C:\Users\HP\CLionProjects\laba6\cmake-build-debug\laba6.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:laba6.exe /implib:laba6.lib /pdb:C:\Users\HP\Desktop\clabs\laba6\cmake-build-debug\laba6.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  lib\gtest_maind.lib lib\gtestd.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -119,6 +142,6 @@ CMakeFiles\laba6.dir\clean:
 .PHONY : CMakeFiles\laba6.dir\clean
 
 CMakeFiles\laba6.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\HP\CLionProjects\laba6 C:\Users\HP\CLionProjects\laba6 C:\Users\HP\CLionProjects\laba6\cmake-build-debug C:\Users\HP\CLionProjects\laba6\cmake-build-debug C:\Users\HP\CLionProjects\laba6\cmake-build-debug\CMakeFiles\laba6.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\HP\Desktop\clabs\laba6 C:\Users\HP\Desktop\clabs\laba6 C:\Users\HP\Desktop\clabs\laba6\cmake-build-debug C:\Users\HP\Desktop\clabs\laba6\cmake-build-debug C:\Users\HP\Desktop\clabs\laba6\cmake-build-debug\CMakeFiles\laba6.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\laba6.dir\depend
 

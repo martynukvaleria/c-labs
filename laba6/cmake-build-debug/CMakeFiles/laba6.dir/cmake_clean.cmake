@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/laba6.dir/FractionClass.cpp.obj"
+  "CMakeFiles/laba6.dir/gtests.cpp.obj"
   "CMakeFiles/laba6.dir/main.cpp.obj"
   "laba6.exe"
   "laba6.exe.manifest"

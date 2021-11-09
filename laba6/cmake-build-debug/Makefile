@@ -46,13 +46,37 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\HP\CLionProjects\laba6
+CMAKE_SOURCE_DIR = C:\Users\HP\Desktop\clabs\laba6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\HP\CLionProjects\laba6\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\HP\Desktop\clabs\laba6\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
+
+# Special rule for the target install/local
+install\local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	echo >nul && "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install\local
+
+# Special rule for the target install/local
+install\local\fast: preinstall\fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	echo >nul && "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install\local\fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	echo >nul && "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install\fast: preinstall\fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	echo >nul && "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install\fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -74,11 +98,20 @@ rebuild_cache:
 rebuild_cache\fast: rebuild_cache
 .PHONY : rebuild_cache\fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components\fast: list_install_components
+.PHONY : list_install_components\fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HP\CLionProjects\laba6\cmake-build-debug\CMakeFiles C:\Users\HP\CLionProjects\laba6\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HP\Desktop\clabs\laba6\cmake-build-debug\CMakeFiles C:\Users\HP\Desktop\clabs\laba6\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HP\CLionProjects\laba6\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HP\Desktop\clabs\laba6\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -118,6 +151,58 @@ laba6\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\laba6.dir\build
 .PHONY : laba6\fast
 
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main\fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make /nologo -$(MAKEFLAGS) _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build
+.PHONY : gmock_main\fast
+
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock\fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make /nologo -$(MAKEFLAGS) _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build
+.PHONY : gmock\fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest\fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest.dir\build.make /nologo -$(MAKEFLAGS) _deps\googletest-build\googletest\CMakeFiles\gtest.dir\build
+.PHONY : gtest\fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main\fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make /nologo -$(MAKEFLAGS) _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build
+.PHONY : gtest_main\fast
+
 FractionClass.obj: FractionClass.cpp.obj
 .PHONY : FractionClass.obj
 
@@ -141,6 +226,30 @@ FractionClass.s: FractionClass.cpp.s
 FractionClass.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\laba6.dir\FractionClass.cpp.s
 .PHONY : FractionClass.cpp.s
+
+gtests.obj: gtests.cpp.obj
+.PHONY : gtests.obj
+
+# target to build an object file
+gtests.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\laba6.dir\gtests.cpp.obj
+.PHONY : gtests.cpp.obj
+
+gtests.i: gtests.cpp.i
+.PHONY : gtests.i
+
+# target to preprocess a source file
+gtests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\laba6.dir\gtests.cpp.i
+.PHONY : gtests.cpp.i
+
+gtests.s: gtests.cpp.s
+.PHONY : gtests.s
+
+# target to generate assembly for a file
+gtests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\laba6.dir\gtests.cpp.s
+.PHONY : gtests.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -173,11 +282,21 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
+	@echo ... install
+	@echo ... install/local
+	@echo ... list_install_components
 	@echo ... rebuild_cache
+	@echo ... gmock
+	@echo ... gmock_main
+	@echo ... gtest
+	@echo ... gtest_main
 	@echo ... laba6
 	@echo ... FractionClass.obj
 	@echo ... FractionClass.i
 	@echo ... FractionClass.s
+	@echo ... gtests.obj
+	@echo ... gtests.i
+	@echo ... gtests.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
