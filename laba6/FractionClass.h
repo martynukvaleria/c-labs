@@ -10,6 +10,7 @@ public:
 
     Fraction(Fraction &fraction);
 
+
     int GetNumerator() const { return numerator; }
 
     int GetDenominator() const { return denominator; }

@@ -6,7 +6,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5b5cf34-964d-4b3c-a22d-c3f47287c116" name="Changes" comment="" />
+    <list default="true" id="e5b5cf34-964d-4b3c-a22d-c3f47287c116" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laba6/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/laba6/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laba6/FractionClass.h" beforeDir="false" afterPath="$PROJECT_DIR$/laba6/FractionClass.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laba6/cmake-build-debug/CMakeFiles/laba6.dir/gtests.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/laba6/cmake-build-debug/CMakeFiles/laba6.dir/gtests.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laba6/cmake-build-debug/CMakeFiles/laba6.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/laba6/cmake-build-debug/CMakeFiles/laba6.dir/vc140.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laba6/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/laba6/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laba6/cmake-build-debug/laba6.exe" beforeDir="false" afterPath="$PROJECT_DIR$/laba6/cmake-build-debug/laba6.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laba6/cmake-build-debug/laba6.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/laba6/cmake-build-debug/laba6.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laba6/cmake-build-debug/laba6.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/laba6/cmake-build-debug/laba6.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +42,13 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,6 +59,7 @@
       <updated>1633966239921</updated>
       <workItem from="1633966242943" duration="44000" />
       <workItem from="1633966303254" duration="8000" />
+      <workItem from="1636783140581" duration="30000" />
     </task>
     <servers />
   </component>
