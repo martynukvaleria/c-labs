@@ -2,7 +2,6 @@
 #define LAB7_STUDENTAFTER1SESSION_H
 
 #include "student.h"
-#include <iostream>
 
 class StudentAfter1session : public Student {
 
@@ -17,7 +16,7 @@ public:
 
     virtual int GetStudentsGrade(int number_of_subject);
 
-    virtual double AverageScore() const;
+    double AverageScore() const override;
 
     friend ostream &operator<<(ostream &out, const StudentAfter1session &studentAfter1Session);
 };

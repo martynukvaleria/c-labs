@@ -1,7 +1,4 @@
 #include "StudentAfter1session.h"
-#include "StudentAfter2session.h"
-
-#include <iostream>
 
 StudentAfter1session::StudentAfter1session(char *name, int course, int group, int record_book, const int marks[4])
         : Student(name, course, group, record_book) {
@@ -19,7 +16,7 @@ int StudentAfter1session::GetStudentsGrade(int number_of_subject) {
 }
 
 double StudentAfter1session::AverageScore() const {
-    int sum = 0;
+    double sum = 0;
     for (int i = 0; i < 4; ++i) {
         sum += marksAfter1session[i];
     }
@@ -27,8 +24,7 @@ double StudentAfter1session::AverageScore() const {
 }
 
 ostream &operator<<(ostream &out, const StudentAfter1session &studentAfter1Session) {
-    Student student(studentAfter1Session);
-    out << student;
+    out << dynamic_cast<const Student&>(studentAfter1Session);
     out << "Student's grades: ";
     for (int i = 0; i < 4; i++) {
         out << studentAfter1Session.marksAfter1session[i] << " ";

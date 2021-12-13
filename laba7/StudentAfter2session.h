@@ -2,7 +2,6 @@
 #define LAB7_STUDENTAFTER2SESSION_H
 
 #include "StudentAfter1session.h"
-#include <iostream>
 
 class StudentAfter2session : public StudentAfter1session {
 protected:
@@ -16,10 +15,14 @@ public:
 
     int GetStudentsGrade(int number_of_subject) override;
 
-    double AverageScore() override;
+    double AverageScore() const override;
 
     friend ostream &operator<<(ostream &out, const StudentAfter2session &studentAfter2Session);
 };
+
+double CalculateAverageScoreAfter1session(const vector<StudentAfter1session> &students, int group);
+
+double CalculateAverageScoreAfter2session(const vector<StudentAfter2session> &students, int group);
 
 
 #endif //LAB7_STUDENTAFTER2SESSION_H

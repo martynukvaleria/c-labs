@@ -16,7 +16,7 @@ int StudentAfter2session::GetStudentsGrade(int number_of_subject) {
     return marksAfter2session[number_of_subject - 1];
 }
 
-double StudentAfter2session::AverageScore() {
+double StudentAfter2session::AverageScore() const {
     double sum = 0;
     for (int i = 0; i < 5; ++i) {
         sum += marksAfter2session[i];
@@ -26,8 +26,7 @@ double StudentAfter2session::AverageScore() {
 }
 
 ostream &operator<<(ostream &out, const StudentAfter2session &studentAfter2Session) {
-    Student student(studentAfter2Session);
-    out << student;
+    out << dynamic_cast<const StudentAfter1session&>(studentAfter2Session);
     out << "Student's grades: ";
     for (int i = 0; i < 5; i++) {
         out << studentAfter2Session.marksAfter2session[i] << " ";
